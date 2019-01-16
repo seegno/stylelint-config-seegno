@@ -246,7 +246,8 @@ module.exports = {
     'property-case': 'lower',
     'rule-empty-line-before': [
       'always-multi-line', {
-        except: 'first-nested'
+        except: 'first-nested',
+        ignore: 'after-comment'
       }
     ],
     'unit-case': 'lower'

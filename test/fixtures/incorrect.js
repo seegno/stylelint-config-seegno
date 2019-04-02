@@ -24,6 +24,11 @@ const DeclarationColonSpaceAfter = styled.div`
   color:red;
 `;
 
+// `function-comma-space-before`.
+const FunctionCommaSpaceBefore = styled.div`
+  transform: translate(1 , 1)
+`;
+
 // `indentation`.
 const Indentation = styled.div`
     color: red;

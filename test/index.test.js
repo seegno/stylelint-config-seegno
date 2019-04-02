@@ -41,6 +41,8 @@ describe('stylelint-config-seegno', () => {
           }, {
             rule: 'declaration-colon-space-after'
           }, {
+            rule: 'function-comma-space-before'
+          }, {
             rule: 'indentation'
           }, {
             rule: 'length-zero-no-unit'

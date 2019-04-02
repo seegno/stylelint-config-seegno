@@ -14,6 +14,7 @@ module.exports = {
     'declaration-block-semicolon-newline-after': 'always',
     'declaration-block-semicolon-space-before': 'never',
     'declaration-colon-space-after': 'always-single-line',
+    'function-comma-space-before': 'never',
     indentation: 2,
     'length-zero-no-unit': true,
     'number-leading-zero': 'always',

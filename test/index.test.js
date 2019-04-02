@@ -57,6 +57,8 @@ describe('stylelint-config-seegno', () => {
           }, {
             rule: 'unit-case'
           }, {
+            rule: 'value-keyword-case'
+          }, {
             rule: 'at-rule-no-unknown'
           }, {
             rule: 'block-no-empty'

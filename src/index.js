@@ -250,6 +250,7 @@ module.exports = {
         ignore: 'after-comment'
       }
     ],
-    'unit-case': 'lower'
+    'unit-case': 'lower',
+    'value-keyword-case': 'lower'
   }
 };

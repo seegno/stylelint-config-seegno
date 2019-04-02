@@ -59,6 +59,11 @@ const UnitCase = styled.div`
   top: 1Px;
 `;
 
+// `value-keyword-case`.
+const ValueKeywordCase = styled.div`
+  display: BLOCK;
+`;
+
 // `at-rule-no-unknown`.
 const AtRuleNoUnknown = styled.div`
   @unknown {

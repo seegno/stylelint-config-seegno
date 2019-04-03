@@ -15,6 +15,7 @@ module.exports = {
     'declaration-block-semicolon-space-before': 'never',
     'declaration-block-trailing-semicolon': 'always',
     'declaration-colon-space-after': 'always-single-line',
+    'function-calc-no-invalid': true,
     indentation: 2,
     'length-zero-no-unit': true,
     'number-leading-zero': 'always',

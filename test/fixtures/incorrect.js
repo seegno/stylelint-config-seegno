@@ -19,6 +19,11 @@ const DeclarationColonSpaceAfter = styled.div`
   color:red;
 `;
 
+// `function-calc-no-invalid`.
+const FunctionCalcNoInvalid = styled.div`
+  width: calc(100% - - 80px);
+`;
+
 // `indentation`.
 const Indentation = styled.div`
     color: red;

@@ -38,6 +38,8 @@ describe('stylelint-config-seegno', () => {
           'declaration-block-semicolon-space-before',
           'declaration-block-trailing-semicolon',
           'declaration-colon-space-after',
+          'function-calc-no-invalid',
+          'function-calc-no-invalid',
           'indentation',
           'length-zero-no-unit',
           'number-leading-zero',

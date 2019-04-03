@@ -18,6 +18,7 @@ module.exports = {
     'function-calc-no-invalid': true,
     'function-comma-space-after': 'always',
     'function-comma-space-before': 'never',
+    'function-name-case': 'lower',
     'function-parentheses-newline-inside': 'never-multi-line',
     'function-parentheses-space-inside': 'never',
     'function-whitespace-after': 'always',
@@ -257,6 +258,7 @@ module.exports = {
         ignore: 'after-comment'
       }
     ],
+    'selector-pseudo-element-case': 'lower',
     'selector-pseudo-element-colon-notation': 'double',
     'unit-case': 'lower',
     'value-keyword-case': 'lower'

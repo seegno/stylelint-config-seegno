@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     'declaration-block-semicolon-newline-after': 'always',
     'declaration-block-semicolon-space-before': 'never',
+    'declaration-block-trailing-semicolon': 'always',
     'declaration-colon-space-after': 'always-single-line',
     indentation: 2,
     'length-zero-no-unit': true,

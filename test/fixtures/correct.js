@@ -56,6 +56,13 @@ const RuleEmptyLineBefore = styled.div`
   }
 `;
 
+// `selector-pseudo-element-colon-notation`.
+const SelectorPseudoElementColonNotation = styled.div`
+  &::before {
+    content: '';
+  }
+`;
+
 // `unit-case`.
 const UnitCase = styled.div`
   top: 1px;

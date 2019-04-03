@@ -250,6 +250,7 @@ module.exports = {
         ignore: 'after-comment'
       }
     ],
+    'selector-pseudo-element-colon-notation': 'double',
     'unit-case': 'lower',
     'value-keyword-case': 'lower'
   }

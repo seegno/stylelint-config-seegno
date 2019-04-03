@@ -25,6 +25,15 @@ const FunctionCalcNoInvalid = styled.div`
   width: calc(100% - 80px);
 `;
 
+// `function-comma-space-before`.
+// `function-comma-space-after`.
+// `function-parentheses-newline-inside`.
+// `function-parentheses-space-inside`.
+// `function-whitespace-after`.
+const FunctionRules = styled.div`
+  transform: translate(1, 1) scale(1);
+`;
+
 // `indentation`.
 const Indentation = styled.div`
   color: red;

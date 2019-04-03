@@ -24,6 +24,33 @@ const FunctionCalcNoInvalid = styled.div`
   width: calc(100% - - 80px);
 `;
 
+// `function-comma-space-before`.
+const FunctionCommaSpaceBefore = styled.div`
+  transform: translate(1 , 1);
+`;
+
+// `function-comma-space-after`.
+const FunctionCommaSpaceAfter = styled.div`
+  transform: translate(1,1);
+`;
+
+// `function-parentheses-newline-inside`.
+const FunctionParenthesesNewlineInside = styled.div`
+  transform: translate(
+    1, 1
+  );
+`;
+
+// `function-parentheses-space-inside`.
+const FunctionParenthesesSpaceInside = styled.div`
+  transform: translate( 1, 1 );
+`;
+
+// `function-whitespace-after`.
+const FunctionWhitespaceAfter = styled.div`
+  transform: translate(1, 1)scale(3);
+`;
+
 // `indentation`.
 const Indentation = styled.div`
     color: red;

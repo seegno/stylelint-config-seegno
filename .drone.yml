@@ -1,0 +1,46 @@
+pipeline:
+  test:
+    image: node:${NODE_VERSION}
+    commands:
+      # Add dependencies.
+      - apk --no-cache --virtual build-dependencies add g++ gcc git make python openssh-client yarn
+
+      # Write the ssh key to disk.
+      - mkdir /root/.ssh
+      - echo -n "$SSH_KEY" > /root/.ssh/id_rsa
+      - chmod 600 /root/.ssh/id_rsa
+
+      # Add github to known hosts.
+      - touch /root/.ssh/known_hosts
+      - chmod 600 /root/.ssh/known_hosts
+      - ssh-keyscan -H github.com > /etc/ssh/ssh_known_hosts 2> /dev/null
+
+      # Project commands.
+      - yarn
+      - yarn lint
+      - yarn test
+    secrets: [ ssh_key ]
+    when:
+      event: pull_request
+
+  generate_changelog:
+    image: ferrarimarco/github-changelog-generator:1.14.3
+    commands:
+      - github_changelog_generator --no-issues --header-label='# Changelog' -o CHANGELOG.md --no-verbose --user seegno-labs --project ${DRONE_REPO_NAME} --token $GITHUB_TOKEN --future-release ${DRONE_TAG} --between-tags ${DRONE_TAG},${DRONE_TAG} --no-unreleased
+    secrets: [ github_token ]
+    when:
+      event: tag
+
+  publish_changelog:
+    image: devorbitus/ubuntu-bash-jq-curl
+    commands:
+      - cat CHANGELOG.md | sed -e '1,4d' -e :a -e '$d;N;2,8ba' -e 'P;D' | sed 's/\\\#/#/' | sed 's/^/\\\n/g' | tr -d '\n' | tee CHANGELOG_NEW.md
+      - curl -X POST  -L -u seegno-bot:$GITHUB_TOKEN -H 'Content-Type:application/json' -d '{"tag_name":"'"$(echo ${DRONE_TAG})"'","target_commitish":"master","name":"'"$(echo ${DRONE_TAG})"'","body":"'"$(cat CHANGELOG_NEW.md)"'","draft":false,"prerelease":false}' https://api.github.com/repos/seegno-labs/${DRONE_REPO_NAME}/releases
+    secrets: [ github_token ]
+    when:
+      event: tag
+
+matrix:
+  NODE_VERSION:
+    - "8-alpine"
+    - "10-alpine"

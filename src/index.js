@@ -8,7 +8,10 @@ module.exports = {
     'stylelint-config-recommended',
     'stylelint-config-styled-components'
   ],
-  plugins: ['stylelint-order'],
+  plugins: [
+    'stylelint-high-performance-animation',
+    'stylelint-order'
+  ],
   processors: ['stylelint-processor-styled-components'],
   rules: {
     'declaration-block-semicolon-newline-after': 'always',
@@ -251,6 +254,9 @@ module.exports = {
       'z-index',
       'zoom'
     ],
+    'plugin/no-low-performance-animation-properties': [true, {
+      ignore: 'paint-properties'
+    }],
     'property-case': 'lower',
     'rule-empty-line-before': [
       'always-multi-line', {

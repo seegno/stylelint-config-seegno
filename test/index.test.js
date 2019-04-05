@@ -45,6 +45,7 @@ describe('stylelint-config-seegno', () => {
           { rule: 'property-case' },
           { rule: 'rule-empty-line-before' },
           { rule: 'unit-case' },
+          { rule: 'value-keyword-case' },
           { rule: 'at-rule-no-unknown' },
           { rule: 'block-no-empty' },
           { rule: 'color-no-invalid-hex' },

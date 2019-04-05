@@ -36,6 +36,7 @@ describe('stylelint-config-seegno', () => {
         expect(warnings).toMatchObject([
           { rule: 'declaration-block-semicolon-newline-after' },
           { rule: 'declaration-block-semicolon-space-before' },
+          { rule: 'declaration-block-trailing-semicolon' },
           { rule: 'declaration-colon-space-after' },
           { rule: 'indentation' },
           { rule: 'length-zero-no-unit' },

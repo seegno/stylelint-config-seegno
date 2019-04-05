@@ -9,6 +9,12 @@ const DeclarationBlockSemicolonSpaceBefore = styled.div`
   color: red;
 `;
 
+// `declaration-block-trailing-semicolon`.
+const DeclarationBlockTrailingSemicolon = styled.div`
+  color: red;
+  display: block;
+`;
+
 // `declaration-colon-space-after`.
 const DeclarationColonSpaceAfter = styled.div`
   color: red;
@@ -31,7 +37,7 @@ const NumberLeadingZero = styled.div`
 
 // `number-no-trailing-zeros`.
 const NumberNoTrailingZeros = styled.div`
-  top: 1px
+  top: 1px;
 `;
 
 // `order/properties-order`.

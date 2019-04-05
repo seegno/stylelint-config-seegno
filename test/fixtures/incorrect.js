@@ -8,6 +8,12 @@ const DeclarationBlockSemicolonSpaceBefore = styled.div`
   color: red ;
 `;
 
+// `declaration-block-trailing-semicolon`.
+const DeclarationBlockTrailingSemicolon = styled.div`
+  color: red;
+  display: block
+`;
+
 // `declaration-colon-space-after`.
 const DeclarationColonSpaceAfter = styled.div`
   color:red;

@@ -44,6 +44,7 @@ describe('stylelint-config-seegno', () => {
           { rule: 'order/properties-order' },
           { rule: 'property-case' },
           { rule: 'rule-empty-line-before' },
+          { rule: 'selector-pseudo-element-colon-notation' },
           { rule: 'unit-case' },
           { rule: 'value-keyword-case' },
           { rule: 'at-rule-no-unknown' },

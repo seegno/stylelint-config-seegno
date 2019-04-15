@@ -21,6 +21,7 @@ const DeclarationColonSpaceAfter = styled.div`
 `;
 
 // `function-calc-no-invalid`.
+// `function-name-case`.
 const FunctionCalcNoInvalid = styled.div`
   width: calc(100% - 80px);
 `;
@@ -76,6 +77,7 @@ const RuleEmptyLineBefore = styled.div`
   }
 `;
 
+// `selector-pseudo-element-case`.
 // `selector-pseudo-element-colon-notation`.
 const SelectorPseudoElementColonNotation = styled.div`
   &::before {

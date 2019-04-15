@@ -34,6 +34,11 @@ const FunctionCommaSpaceAfter = styled.div`
   transform: translate(1,1);
 `;
 
+// `function-name-case`.
+const FunctionNameCase = styled.div`
+  width: Calc(5% - 1em);
+`;
+
 // `function-parentheses-newline-inside`.
 const FunctionParenthesesNewlineInside = styled.div`
   transform: translate(
@@ -89,6 +94,13 @@ const RuleEmptyLineBefore = styled.div`
   }
   b {
     color: blue;
+  }
+`;
+
+// `selector-pseudo-element-case`.
+const SelectorPseudoElementCase = styled.div`
+  &::Before {
+    content: '';
   }
 `;
 

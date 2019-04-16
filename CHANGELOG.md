@@ -1,5 +1,22 @@
 # Changelog
 
+## [v0.1.0](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.1.0) (2019-04-16)
+[Full Changelog](https://github.com/seegno-labs/stylelint-config-seegno/compare/v0.0.1...v0.1.0)
+
+**Merged pull requests:**
+
+- Improve incorrect test diff when failing [\#24](https://github.com/seegno-labs/stylelint-config-seegno/pull/24) ([bsonntag](https://github.com/bsonntag))
+- Add case rules for function and selector-pseudo-element [\#22](https://github.com/seegno-labs/stylelint-config-seegno/pull/22) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+- Add function-calc-no-invalid rule [\#21](https://github.com/seegno-labs/stylelint-config-seegno/pull/21) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+-  Add declaration-block-trailing-semicolon-rule rule [\#20](https://github.com/seegno-labs/stylelint-config-seegno/pull/20) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+- Add selector-pseudo-element-colon-notation rule [\#19](https://github.com/seegno-labs/stylelint-config-seegno/pull/19) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+- Add function rules [\#18](https://github.com/seegno-labs/stylelint-config-seegno/pull/18) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+- Add drone configuration [\#17](https://github.com/seegno-labs/stylelint-config-seegno/pull/17) ([johnmaia](https://github.com/johnmaia))
+- Add value-keyword-case rule [\#5](https://github.com/seegno-labs/stylelint-config-seegno/pull/5) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+- Add tests [\#4](https://github.com/seegno-labs/stylelint-config-seegno/pull/4) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+- Update dependencies [\#3](https://github.com/seegno-labs/stylelint-config-seegno/pull/3) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+- Update rule-empty-line-before rule [\#2](https://github.com/seegno-labs/stylelint-config-seegno/pull/2) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+
 ## [v0.0.1](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.0.1) (2018-11-26)
 **Merged pull requests:**
 

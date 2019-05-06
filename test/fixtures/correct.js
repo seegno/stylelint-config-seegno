@@ -93,6 +93,7 @@ const UnitCase = styled.div`
 // `value-keyword-case`.
 const ValueKeywordCase = styled.div`
   display: block;
+  width: ${units(1)};
 `;
 
 // `at-rule-no-unknown`.

@@ -261,6 +261,8 @@ module.exports = {
     'selector-pseudo-element-case': 'lower',
     'selector-pseudo-element-colon-notation': 'double',
     'unit-case': 'lower',
-    'value-keyword-case': 'lower'
+    'value-keyword-case': ['lower', {
+      ignoreKeywords: ['dummyValue']
+    }]
   }
 };

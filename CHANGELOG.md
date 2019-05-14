@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.1](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.1.1) (2019-05-14)
+[Full Changelog](https://github.com/seegno-labs/stylelint-config-seegno/compare/v0.1.0...v0.1.1)
+
+**Merged pull requests:**
+
+- Fix changelog script [\#26](https://github.com/seegno-labs/stylelint-config-seegno/pull/26) ([bsonntag](https://github.com/bsonntag))
+- Update value-keyword-case rule [\#25](https://github.com/seegno-labs/stylelint-config-seegno/pull/25) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+
 ## [v0.1.0](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.1.0) (2019-04-16)
 [Full Changelog](https://github.com/seegno-labs/stylelint-config-seegno/compare/v0.0.1...v0.1.0)
 
@@ -21,3 +29,6 @@
 **Merged pull requests:**
 
 - Add first rules version [\#1](https://github.com/seegno-labs/stylelint-config-seegno/pull/1) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+
+
+

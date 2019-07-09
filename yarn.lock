@@ -6018,6 +6018,11 @@ stylelint-config-styled-components@^0.1.1:
   resolved "https://registry.yarnpkg.com/stylelint-config-styled-components/-/stylelint-config-styled-components-0.1.1.tgz#b408388d7c687833ab4be4c4e6522d97d2827ede"
   integrity sha512-z5Xz/9GmvxO6e/DLzBMwkB85zHxEEjN6K7Cj80Bi+o/9vR9eS3GX3E9VuMnX9WLFYulqbqLtTapGGY28JBiy9Q==
 
+stylelint-high-performance-animation@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.1.1.tgz#769c75d5caeaa9692efd576aa0779cc367efc1c1"
+  integrity sha512-u8lZnmJLxIJJGgcMDMiSeIuEptLWGRatP5qtfzEzeKVttz+1nFqtdGwi7tORfq9s3oARkJ6ui4l7w/sEmurz8Q==
+
 stylelint-order@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-2.1.0.tgz#fc64625c26b93755773bd67c1203381194aded04"

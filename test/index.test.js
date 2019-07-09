@@ -55,6 +55,7 @@ describe('stylelint-config-seegno', () => {
           'number-leading-zero',
           'number-no-trailing-zeros',
           'order/properties-order',
+          'plugin/no-low-performance-animation-properties',
           'property-case',
           'rule-empty-line-before',
           'selector-pseudo-element-case',

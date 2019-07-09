@@ -82,6 +82,11 @@ const PropertiesAlphabeticalOrder = styled.div`
   color: red;
 `;
 
+// `plugin/no-low-performance-animation-properties`.
+const PluginNoLowPerformanceAnimationProperties = styled.div`
+  transition-property: margin;
+`;
+
 // `property-case`.
 const PropertyCase = styled.div`
   WIDTH: 1px;

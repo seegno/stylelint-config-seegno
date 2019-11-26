@@ -12,7 +12,24 @@ module.exports = {
     'stylelint-high-performance-animation',
     'stylelint-order'
   ],
-  processors: ['stylelint-processor-styled-components'],
+  processors: [
+    ['stylelint-processor-styled-components', {
+      parserPlugins: [
+        'jsx',
+        'objectRestSpread',
+        ['decorators', { decoratorsBeforeExport: true }],
+        'classProperties',
+        'exportExtensions',
+        'asyncGenerators',
+        'functionBind',
+        'functionSent',
+        'dynamicImport',
+        'optionalCatchBinding',
+        'optionalChaining',
+        'nullishCoalescingOperator'
+      ]
+    }]
+  ],
   rules: {
     'declaration-block-semicolon-newline-after': 'always',
     'declaration-block-semicolon-space-before': 'never',

@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.2.0](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.2.0) (2019-11-26)
+[Full Changelog](https://github.com/seegno-labs/stylelint-config-seegno/compare/v0.1.1...v0.2.0)
+
+**Merged pull requests:**
+
+- Add support for nullish coalescing operator [\#28](https://github.com/seegno-labs/stylelint-config-seegno/pull/28) ([bsonntag](https://github.com/bsonntag))
+- Add stylelint-high-performance-animation plugin [\#23](https://github.com/seegno-labs/stylelint-config-seegno/pull/23) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+
 ## [v0.1.1](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.1.1) (2019-05-14)
 [Full Changelog](https://github.com/seegno-labs/stylelint-config-seegno/compare/v0.1.0...v0.1.1)
 

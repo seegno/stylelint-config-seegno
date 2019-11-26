@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.3.0](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.3.0) (2019-11-26)
+[Full Changelog](https://github.com/seegno-labs/stylelint-config-seegno/compare/v0.2.0...v0.3.0)
+
+**Merged pull requests:**
+
+- Update dependencies [\#29](https://github.com/seegno-labs/stylelint-config-seegno/pull/29) ([rafaelcruzazevedo](https://github.com/rafaelcruzazevedo))
+
 ## [v0.2.0](https://github.com/seegno-labs/stylelint-config-seegno/tree/v0.2.0) (2019-11-26)
 [Full Changelog](https://github.com/seegno-labs/stylelint-config-seegno/compare/v0.1.1...v0.2.0)
 

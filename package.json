@@ -28,15 +28,13 @@
     "lint-staged"
   ],
   "lint-staged": {
-    "linters": {
-      "src/**/*.js": [
-        "eslint"
-      ],
-      "package.json": [
-        "sort-package-json",
-        "git add"
-      ]
-    }
+    "**/*.js": [
+      "eslint"
+    ],
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ]
   },
   "jest": {
     "coverageDirectory": "coverage",
@@ -48,31 +46,30 @@
     "testRegex": "(test/.*\\.test.js)$"
   },
   "dependencies": {
-    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-high-performance-animation": "^1.1.1",
-    "stylelint-order": "^2.1.0",
-    "stylelint-processor-styled-components": "^1.6.0"
+    "stylelint-high-performance-animation": "^1.3.0",
+    "stylelint-order": "^3.1.1",
+    "stylelint-processor-styled-components": "^1.9.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
-    "babel-jest": "^24.6.0",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "eslint": "^5.16.0",
-    "eslint-config-seegno": "^13.0.0",
-    "jest": "^24.6.0",
+    "eslint-config-seegno": "^15.0.0",
+    "jest": "^24.9.0",
     "jest-preset-stylelint": "^1.3.0",
-    "lint-staged": "^8.1.5",
+    "lint-staged": "^9.4.3",
     "pre-commit": "^1.2.2",
-    "sort-package-json": "^1.22.0",
-    "stylelint": "^9.10.1"
+    "sort-package-json": "^1.24.0",
+    "stylelint": "^12.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^9.0.0"
+    "stylelint": "^12.0.0"
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 8.7.0"
   }
 }

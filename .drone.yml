@@ -42,5 +42,5 @@ pipeline:
 
 matrix:
   NODE_VERSION:
-    - "8-alpine"
     - "10-alpine"
+    - "12-alpine"

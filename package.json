@@ -9,9 +9,13 @@
     "styled-components",
     "stylelint"
   ],
+  "homepage": "https://github.com/seegno/stylelint-config-seegno#readme",
+  "bugs": {
+    "url": "https://github.com/seegno/stylelint-config-seegno/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/seegno-labs/stylelint-config-seegno.git"
+    "url": "git+ssh://git@github.com/seegno/stylelint-config-seegno.git"
   },
   "license": "MIT",
   "author": "Seegno",

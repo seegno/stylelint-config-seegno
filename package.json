@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-seegno",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Seegno-flavored stylelint config",
   "keywords": [
     "config",
@@ -21,7 +21,7 @@
   "author": "Seegno",
   "main": "src",
   "scripts": {
-    "changelog": "github_changelog_generator --no-issues --header-label='# Changelog' --future-release=v$npm_config_future_release && sed -i '/github_changelog_generator/d' CHANGELOG.md",
+    "changelog": "github_changelog_generator --no-issues --header-label='# Changelog' --future-release=v$npm_config_future_release",
     "lint": "eslint .",
     "lint-staged": "lint-staged",
     "test": "jest",

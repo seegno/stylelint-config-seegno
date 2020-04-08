@@ -76,6 +76,7 @@ describe('stylelint-config-seegno', () => {
           'selector-pseudo-element-no-unknown',
           'selector-type-no-unknown',
           'string-no-newline',
+          'string-quotes',
           'unit-case',
           'unit-no-unknown',
           'value-keyword-case',

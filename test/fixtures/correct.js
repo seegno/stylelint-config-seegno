@@ -197,7 +197,12 @@ const SelectorTypeNoUnknown = styled.div`
 
 // `string-no-newline`.
 const StringNoNewline = styled.div`
-  font-family: "Times New Roman", serif;
+  font-family: 'Times New Roman', serif;
+`;
+
+// `string-quotes`.
+const StringQuotes = styled.div`
+  content: '';
 `;
 
 // `unit-no-unknown`.

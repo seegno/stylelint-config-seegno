@@ -210,9 +210,14 @@ const SelectorTypeNoUnknown = styled.div`
 
 // `string-no-newline`.
 const StringNoNewline = styled.div`
-  font-family: "Times
+  font-family: 'Times
     New
-    Roman", serif;
+    Roman', serif;
+`;
+
+// `string-quotes`.
+const StringQuotes = styled.div`
+  content: "";
 `;
 
 // `unit-case`.

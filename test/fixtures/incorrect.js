@@ -1,7 +1,12 @@
 // `order/properties-order`.
-const PropertiesAlphabeticalOrder = styled.div`
+const PropertiesAlphabeticalOrder1 = styled.div`
   display: block;
   color: red;
+`;
+
+const PropertiesAlphabeticalOrder2 = styled.div`
+  color: red;
+  appearance: none;
 `;
 
 // `plugin/no-low-performance-animation-properties`.

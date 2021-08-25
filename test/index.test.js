@@ -34,9 +34,9 @@ describe('stylelint-config-seegno', () => {
 
         expect(errored).toBe(true);
         expect(warnings.map(({ rule }) => rule)).toMatchObject([
+          'order/properties-order',
+          'order/properties-order',
           'plugin/no-low-performance-animation-properties',
-          'order/properties-order',
-          'order/properties-order',
           'at-rule-no-unknown',
           'block-no-empty',
           'color-no-invalid-hex',

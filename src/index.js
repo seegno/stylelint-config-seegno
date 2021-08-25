@@ -61,6 +61,7 @@ module.exports = {
       'animation-play-state',
       'animation-timing-function',
       'appearance',
+      'aspect-ratio',
       'backface-visibility',
       'background',
       'background-attachment',

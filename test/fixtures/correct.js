@@ -57,6 +57,8 @@ const NumberNoTrailingZeros = styled.div`
 
 // `order/properties-order`.
 const PropertiesAlphabeticalOrder = styled.div`
+  appearance: none;
+  aspect-ratio: 16/9;
   color: red;
   display: block;
 `;

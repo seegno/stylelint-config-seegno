@@ -32,12 +32,14 @@
     "lint-staged"
   ],
   "lint-staged": {
+    "(src|test)/**/*.js": [
+      "jest --findRelatedTests"
+    ],
     "**/*.js": [
       "eslint"
     ],
     "package.json": [
-      "sort-package-json",
-      "git add"
+      "sort-package-json"
     ]
   },
   "jest": {

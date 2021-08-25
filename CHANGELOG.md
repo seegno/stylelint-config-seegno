@@ -1,5 +1,30 @@
 # Changelog
 
+## [v0.5.0](https://github.com/seegno/stylelint-config-seegno/tree/v0.5.0) (2021-08-25)
+[Full Changelog](https://github.com/seegno/stylelint-config-seegno/compare/v0.4.0...v0.5.0)
+
+**Merged pull requests:**
+
+- Update jest dependencies [\#59](https://github.com/seegno/stylelint-config-seegno/pull/59) ([bsonntag](https://github.com/bsonntag))
+- Add support for the aspect-ratio property [\#58](https://github.com/seegno/stylelint-config-seegno/pull/58) ([bsonntag](https://github.com/bsonntag))
+- Update lint-staged configuration [\#57](https://github.com/seegno/stylelint-config-seegno/pull/57) ([bsonntag](https://github.com/bsonntag))
+- Add license file [\#56](https://github.com/seegno/stylelint-config-seegno/pull/56) ([bsonntag](https://github.com/bsonntag))
+- Bump js-yaml from 3.13.0 to 3.14.1 [\#55](https://github.com/seegno/stylelint-config-seegno/pull/55) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump acorn from 6.0.2 to 6.4.2 [\#54](https://github.com/seegno/stylelint-config-seegno/pull/54) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump path-parse from 1.0.6 to 1.0.7 [\#53](https://github.com/seegno/stylelint-config-seegno/pull/53) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump glob-parent from 5.1.0 to 5.1.2 [\#52](https://github.com/seegno/stylelint-config-seegno/pull/52) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump trim-newlines from 3.0.0 to 3.0.1 [\#51](https://github.com/seegno/stylelint-config-seegno/pull/51) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ws from 7.2.1 to 7.4.6 [\#50](https://github.com/seegno/stylelint-config-seegno/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Add appearance to properties order [\#49](https://github.com/seegno/stylelint-config-seegno/pull/49) ([Joanata](https://github.com/Joanata))
+- Add gap and row-gap to properties order [\#48](https://github.com/seegno/stylelint-config-seegno/pull/48) ([Joanata](https://github.com/Joanata))
+- Bump browserslist from 4.9.1 to 4.16.6 [\#45](https://github.com/seegno/stylelint-config-seegno/pull/45) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump hosted-git-info from 2.7.1 to 2.8.9 [\#44](https://github.com/seegno/stylelint-config-seegno/pull/44) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump lodash from 4.17.19 to 4.17.21 [\#43](https://github.com/seegno/stylelint-config-seegno/pull/43) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump y18n from 4.0.0 to 4.0.1 [\#42](https://github.com/seegno/stylelint-config-seegno/pull/42) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ini from 1.3.5 to 1.3.8 [\#41](https://github.com/seegno/stylelint-config-seegno/pull/41) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump lodash from 4.17.11 to 4.17.19 [\#39](https://github.com/seegno/stylelint-config-seegno/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Add string-quotes rule [\#38](https://github.com/seegno/stylelint-config-seegno/pull/38) ([bsonntag](https://github.com/bsonntag))
+
 ## [v0.4.0](https://github.com/seegno/stylelint-config-seegno/tree/v0.4.0) (2020-03-03)
 [Full Changelog](https://github.com/seegno/stylelint-config-seegno/compare/v0.3.0...v0.4.0)
 

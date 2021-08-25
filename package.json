@@ -68,10 +68,10 @@
     "lint-staged": "^10.0.8",
     "pre-commit": "^1.2.2",
     "sort-package-json": "^1.40.0",
-    "stylelint": "^13.2.0"
+    "stylelint": "^13.13.1"
   },
   "peerDependencies": {
-    "stylelint": "^12 || ^13"
+    "stylelint": "^13.10.0"
   },
   "engines": {
     "node": ">= 10"

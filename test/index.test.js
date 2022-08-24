@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-import config from '../src';
-import fs from 'fs';
-import stylelint from 'stylelint';
+const config = require('../src');
+const fs = require('fs');
+const stylelint = require('stylelint');
 
 /**
  * `stylelint-config-seegno` tests.

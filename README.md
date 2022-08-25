@@ -7,7 +7,7 @@ however it can be applied in other contexts.
 ## Installation
 
 ```sh
-$ npm install stylelint stylelint-config-seegno --save-dev
+npm install "stylelint^13.10.0" stylelint-config-seegno --save-dev
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ Add the following `script` to your `package.json`:
 and run the linter with:
 
 ```sh
-$ npm run lint-styles
+npm run lint-styles
 ```
 
 ## Extending the config

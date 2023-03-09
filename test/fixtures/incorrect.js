@@ -86,6 +86,9 @@ const FunctionCommaSpaceBefore = styled.div`
 // `function-comma-space-after`.
 const FunctionCommaSpaceAfter = styled.div`
   transform: translate(1,1);
+  transform: translate(
+    1, 1
+  );
 `;
 
 // `function-linear-gradient-no-nonstandard-direction`.
@@ -100,8 +103,8 @@ const FunctionNameCase = styled.div`
 
 // `function-parentheses-newline-inside`.
 const FunctionParenthesesNewlineInside = styled.div`
-  transform: translate(
-    1, 1
+  transform: translate(1,
+    1
   );
 `;
 
